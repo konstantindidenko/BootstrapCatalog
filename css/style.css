@@ -1,0 +1,31 @@
+body {
+	padding: 0 0 150px;
+}
+.container > .row {
+	margin: 52px 0 0 0;
+}
+.fa-vk.fa-stack-1x {
+	line-height: inherit;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-group {
+	margin: 10px 0 0 0;
+}
+.btn-group.nod-margin {
+	margin: 0;
+}
+a.spoiler::after {
+	content: "[ - ]";
+}
+a.spoiler.collapsed::after {
+	content: "[ + ]";
+}
+#carousel {
+	margin: 51px 0 0;
+}
+.progress-bar {
+	min-width: 2%;
+	width: 37%;
+}
